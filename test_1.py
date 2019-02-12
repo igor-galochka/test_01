@@ -4,3 +4,12 @@ while True:
         print('Invalod SSn, please check format')
         continue
 
+    if not user_ssn_number.isdigit():
+        print('fgfgfgfgf')
+        continue
+# fgdfgdfgdf
+    if int(user_ssn_number) not in SSN_white_list:
+        print('ghhghhhghg')
+        continue
+
+
