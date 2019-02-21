@@ -15,5 +15,8 @@ while True:
 
 b = 56
 print(b)
+a="name"
+
+
 
 
