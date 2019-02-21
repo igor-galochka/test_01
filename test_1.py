@@ -1,6 +1,6 @@
 while True:
     user_ssn_number = input('Enter your SSN number in format (0000):')
-    if len(user_ssn_number) !=4:
+    if len(user_ssn_number) != 4:
         print('Invalod SSn, please check format')
         continue
 
@@ -11,5 +11,9 @@ while True:
     if int(user_ssn_number) not in SSN_white_list:
         print('ghhghhhghg')
         continue
+
+
+b = 56
+print(b)
 
 
